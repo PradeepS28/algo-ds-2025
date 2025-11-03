@@ -5,18 +5,18 @@ import "fmt"
 /*
 Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
 
-1
-12
-123
-1234
-12345
+*****
+*****
+*****
+*****
+*****
 
 Print the pattern in the function given to you.
 */
-func Pattern3(in int) {
-	for i := 1; i <= in; i++ {
-		for j := 1; j <= i; j++ {
-			fmt.Print(j)
+func Pattern1(n int) {
+	for i := 0; i < n; i++ {
+		for j := 0; j < n; j++ {
+			fmt.Print("*")
 		}
 		fmt.Println("")
 	}

@@ -21,5 +21,6 @@ func main() {
 	//patterns.Pattern18(5)
 	//patterns.Pattern19(2)
 	//patterns.Pattern19(2)
-	patterns.Pattern21(2)
+	//patterns.Pattern21(2)
+	patterns.Pattern22(5)
 }
